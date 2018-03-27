@@ -1,0 +1,9 @@
+# Logfile created on 2018-02-11 17:41:38 +0900 by logger.rb/53141
+E, [2018-02-11T17:41:41.879691 #9521] ERROR -- : 784: unexpected token at '"1124"
+'
+E, [2018-02-11T17:43:16.920052 #9578] ERROR -- : 784: unexpected token at '"1124"
+'
+E, [2018-02-11T17:47:24.100282 #9654] ERROR -- : Failed to open TCP connection to localhost:80 (Connection refused - connect(2) for "localhost" port 80)
+E, [2018-02-11T17:47:37.310705 #9695] ERROR -- : Failed to open TCP connection to localhost:80 (Connection refused - connect(2) for "localhost" port 80)
+E, [2018-02-11T17:47:48.741190 #9739] ERROR -- : 784: unexpected token at '"1124"
+'

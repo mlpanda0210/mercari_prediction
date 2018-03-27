@@ -1,0 +1,35 @@
+
+<div class="table-responsive">
+  <table class="table-striped">
+    <thead>
+          <tr>
+            <th class="col-md-2">商品</th>
+            <th class="col-md-1">価格差</th>
+            <th class="col-md-2">商品名</th>
+            <th class="col-md-1">ブランド</th>
+            <th class="col-md-1">商品の状態</th>
+            <th class="col-md-1">出品価格</th>
+            <th class="col-md-1">予測価格</th>
+
+          </tr>
+      </thead>
+
+
+
+  <% @products.each do |product| %>
+  <tr>
+    <td class="col-md-2"><%= image_tag(product.pic)%></td>
+    <td class="col-md-1"><%= product.profit %>円</td>
+    <td class="col-md-2"><%= product.item_name %></td>
+    <td class="col-md-1"><%= product.brand_name %></td>
+    <td class="col-md-1"><%= product.item_condition %></td>
+    <td class="col-md-1"><%= product.actual_price %>円</td>
+    <td class="col-md-1"><%= product.Predicted_price %>円</td>
+
+
+  </tr>
+  <% end %>
+  <br>
+  <br>
+</table>
+</div>
